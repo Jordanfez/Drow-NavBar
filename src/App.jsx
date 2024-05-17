@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./components/Button";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Button />
         </div>
       </div>
+      <Footer />
     </section>
   );
 };
